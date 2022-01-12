@@ -1,18 +1,4 @@
 #发布配置
 server:
   port: 3344
-spring:
-  application:
-    name: cloud-config-center
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/ITTUCHINA/spring-cloud-config.git
-          search-paths:
-            - spring-cloud-config
-      label: master
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+  version: 1
